@@ -1,0 +1,16 @@
+//Gitテスト用ファイル001
+public string Test001(string para1){
+    var test = "";
+    
+    swicth(para1){
+        case: "1"
+            test = "TEST001";
+            break;
+        default:
+            test = "TEST005";
+            break;
+    } 
+    
+    return test;
+
+}
